@@ -1,4 +1,4 @@
-def fibo(n):
+def fibonacci(n):
     if n <= 0:
         return []
     elif n == 1:
@@ -13,4 +13,4 @@ def fibo(n):
     
     return fib_sequence
 
-print(fibo(int(input("Enter the number of Fibonacci terms to generate: "))))
+print(fibonacci(int(input("Enter the number of Fibonacci terms to generate: "))))
